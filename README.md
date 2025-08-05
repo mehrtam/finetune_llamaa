@@ -14,7 +14,7 @@ This repository demonstrates how to fine-tune the [TinyLLaMA-1.1B-Chat](https://
 
 ---
 
-##  Installation
+Installation
 
 ```bash
 pip install -q transformers accelerate peft datasets bitsandbytes sentencepiece
@@ -66,7 +66,7 @@ Custom Prompt Evaluation
 
 Checks if the expected token appears in top-1, top-3, or top-5 predictions
 
-Example:
+## Example:
 
 Prompt: "The capital of France is"
 Expected: "Paris"
